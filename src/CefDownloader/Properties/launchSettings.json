@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CefDownloader": {
+      "commandName": "Project",
+      "commandLineArgs": "download v66 --cef-binary-version=3.3359.1772.gd1df190 --cpu=x86 --dest=\"C:\\Projects\\ProjectDurbar\\ChromelySolution\\src\\Demos\\Chromely.CefGlue.Gtk.Win.Demo\\bin\\x86\\Debug\\net461\\\""
+    }
+  }
+}

@@ -1,0 +1,9 @@
+﻿dotnet chromelycef.dll download -h
+dotnet chromelycef.dll download v60 -v=3.3325.1751.ge5b78a5 -o=win -d="bin\x86"
+dotnet chromelycef.dll download v60 -v=3.3325.1751.ge5b78a5 -o=linux -c=x64 
+dotnet chromelycef.dll download v60 -v=3.3325.1751.ge5b78a5 -o=win -c=x64 -d="bin\x86"
+dotnet chromelycef.dll download v60 --os=linux --cpu=x86 --dest="bin\x86"
+dotnet chromelycef.dll download v60 --cef-binary-version=3.3325.1751.ge5b78a5 --os=linux --cpu=x64 --dest="bin\x86"
+dotnet chromelycef.dll download v60 --dest="C:\ChromelyDlls"
+dotnet chromelycef.dll download v60 --cef-binary-version=3.3325.1751.ge5b78a5 --os=linux --cpu=x64 --dest="C:\ChromelyDlls"
+

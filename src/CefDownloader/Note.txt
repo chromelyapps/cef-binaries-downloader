@@ -1,0 +1,7 @@
+﻿chromelycef.exe download -h
+chromelycef.exe download v60 -v=3.3325.1751.ge5b78a5 -c=x64 
+chromelycef.exe download v60 -v=3.3325.1751.ge5b78a5 -c=x86 -d="bin\x86" 
+chromelycef.exe download v60 --cef-binary-version=3.3325.1751.ge5b78a5 --cpu=x64 --dest="bin\x86"
+chromelycef.exe download v60 --cef-binary-version=3.3325.1751.ge5b78a5 --cpu=x64
+chromelycef.exe download v60 --cef-binary-version=3.3325.1751.ge5b78a5 --cpu=x64 --dest="C:\ChromelyDlls"
+ 

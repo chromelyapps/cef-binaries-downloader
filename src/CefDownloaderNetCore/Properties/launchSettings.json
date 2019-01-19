@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CefDownloaderNetCore": {
+      "commandName": "Project",
+      "commandLineArgs": "dotnet chromelycef.dll download -h"
+    }
+  }
+}
