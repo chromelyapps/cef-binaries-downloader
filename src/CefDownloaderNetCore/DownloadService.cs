@@ -210,11 +210,12 @@ namespace CefDownloaderNetCore
 
                 if (isWin)
                 {
-                    cefBinaryFiles.Add("chrome_elf.dll");
+                    // These first two may no longer be required.
+                    // cefBinaryFiles.Add("chrome_elf.dll");
+                    // cefBinaryFiles.Add("widevinecdmadapter.dll");
                     cefBinaryFiles.Add("libcef.dll");
                     cefBinaryFiles.Add("libEGL.dll");
                     cefBinaryFiles.Add("libGLESv2.dll");
-                    cefBinaryFiles.Add("widevinecdmadapter.dll");
                 }
                 else
                 {
