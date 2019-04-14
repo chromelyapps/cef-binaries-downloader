@@ -2,7 +2,7 @@
 Scripts to download CEF binaries from http://opensource.spotify.com/cefbuilds/index.html
 
 ### Usage
-Run chromelycef.exe on command line using the option below. You can get a release version from [binaries folder](https://github.com/chromelyapps/cef-binaries-downloader/tree/master/binaries). 
+Run chromelycef.exe or chromelycef.dll  on command line using the options below. You can get a release version from [binaries folder](https://github.com/chromelyapps/cef-binaries-downloader/tree/master/binaries). 
 
 ### Using .NET chromelycef.dll
 
