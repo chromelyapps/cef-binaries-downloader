@@ -10,7 +10,7 @@ To get help:
 - chromelycef.exe download -h
 
 Samples:
-**Chromely versions: (v66, v68, v70 etc)**
+**Chromely CefGlue versions: (v66, v68, v70 etc)**
 
 - chromelycef.exe download v60 -v=3.3325.1751.ge5b78a5 -c=x64 
 - chromelycef.exe download v60 -v=3.3325.1751.ge5b78a5 -c=x86 -d="bin\x86" 
@@ -33,7 +33,7 @@ To get help:
 
 Samples:
 
-**Chromely versions: (v66, v68, v70 etc)**
+**Chromely CefGlue versions: (v66, v68, v70 etc)**
 
 - dotnet chromelycef.dll download v60 -v=3.3325.1751.ge5b78a5 -o=win -d="bin\x86"
 - dotnet chromelycef.dll download v60 -v=3.3325.1751.ge5b78a5 -o=linux -c=x64 
