@@ -122,7 +122,14 @@ namespace CefDownloader
                     string cpuOption = option.Value();
                     if (!string.IsNullOrEmpty(cpuOption))
                     {
-                        this.Is64Bit = cpuOption.Equals("x64", StringComparison.InvariantCultureIgnoreCase);
+                        if (cpuOption.ToLower().Contains("any"))
+                        {
+                            this.Is64Bit = Environment.Is64BitOperatingSystem;
+                        }
+                        else
+                        {
+                            this.Is64Bit = cpuOption.Equals("x64", StringComparison.InvariantCultureIgnoreCase);
+                        }
                     }
                     else
                     {

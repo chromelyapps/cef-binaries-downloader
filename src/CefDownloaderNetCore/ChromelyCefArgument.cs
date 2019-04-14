@@ -124,9 +124,16 @@ namespace CefDownloaderNetCore
                     string cpuOption = !string.IsNullOrEmpty(option.Value()) ? option.Value() : string.Empty;
                     if (!string.IsNullOrEmpty(cpuOption))
                     {
-                        this.Architecture = cpuOption.Equals("x64", StringComparison.InvariantCultureIgnoreCase)
-                                                ? Architecture.X64
-                                                : Architecture.X86;
+                        if (cpuOption.ToLower().Contains("any"))
+                        {
+                            this.Architecture = RuntimeInformation.OSArchitecture;
+                        }
+                        else
+                        {
+                            this.Architecture = cpuOption.Equals("x64", StringComparison.InvariantCultureIgnoreCase)
+                                                    ? Architecture.X64
+                                                    : Architecture.X86;
+                        }
                     }
                     else
                     {
